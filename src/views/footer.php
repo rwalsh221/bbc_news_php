@@ -30,29 +30,31 @@
             </div>
         </div>
         <div class="footer-nav-container">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <nav class="footer__nav">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">news</a></li>
+                    <li><a href="">sport</a></li>
+                    <li><a href="">weather</a></li>
+                    <li><a href="">iPlayer</a></li>
+                    <li><a href="">sounds</a></li>
+                    <li><a href="">bitesize</a></li>
+                    <li><a href="">CBeebies</a></li>
+                    <li><a href="">CBBC</a></li>
+                    <li><a href="">food</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="legal-nav-container">
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="">terms of use</a></li>
+                <li><a href="">about the bbc</a></li>
+                <li><a href="">privacy policy</a></li>
+                <li><a href="">cookies</a></li>
+                <li><a href="">accessibility help</a></li>
+                <li><a href="">parental guidance</a></li>
+                <li><a href="">contact the BBC</a></li>
+                <li><a href="">get personalised newsletters</a></li>
             </ul>
         </div>
         <div class="copyright-container">
