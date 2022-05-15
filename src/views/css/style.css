@@ -53,10 +53,12 @@ body {
 
 .header {
   width: 100%;
-  min-height: 35vh;
+  min-height: 15vh;
   /* height: 35vh; */
   background-color: darkred;
 }
+
+/* HEADER__NAV **************************************** */
 
 .nav-container {
   width: 100%;
@@ -142,6 +144,8 @@ body {
   background-color: gray;
 }
 
+/* HEADING **************************************** */
+
 .heading__primary {
   margin-top: 1rem;
   width: 70%;
@@ -154,9 +158,7 @@ body {
   font-weight: bold;
 }
 
-.news-nav-container {
-  /* padding: 2rem 0; */
-}
+/* NEWS__NAV ************************************** */
 
 .news__nav {
   width: 70%;
@@ -164,34 +166,86 @@ body {
 }
 
 .news__nav ul {
+  color: white;
+}
+
+.nav-ul {
   list-style: none;
   font-size: 1.6rem;
-  color: white;
   text-transform: capitalize;
   display: flex;
-  /* justify-content: space-around; */
+
   align-items: center;
   font-weight: bold;
+  height: max-content;
 }
 
 .news__nav li {
-  display: inline-block;
+  border-bottom: 4px solid darkred;
+}
+
+.nav-li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
+  transition: all 0.5s;
 }
 
-.news__nav span:first-child {
-  padding-left: 0;
-  color: hotpink;
+.news__nav li:hover:not(:last-child) {
+  border-bottom: 4px solid white;
 }
 
 .news__nav li span {
-  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.nav-li span {
+  display: flex;
+  justify-content: center;
   padding: 0 1rem;
 }
 
-/* HOME STYLES */
+.nav-li:first-of-type span {
+  border-left: none;
+  padding-left: 0;
+}
+
+.news__nav--more:hover {
+  background-color: black;
+  border-bottom: 4px solid black;
+}
+
+/* LOCATION__NAV */
+
+.location-nav-container {
+  background-color: white;
+}
+
+.location__nav {
+  width: 70%;
+  margin: 0 auto;
+  color: black;
+}
+
+.location__nav li {
+  border-bottom: 4px solid white;
+}
+
+.location__nav li span {
+  border-left: 1px solid lightgray;
+  font-weight: normal;
+}
+
+.location__nav li:hover {
+  border-bottom: 4px solid darkred;
+}
+
+/* HOME STYLES ************************************************************************************************************************************** */
+
+.main {
+  background-color: lightgray;
+  min-height: 85vh;
+}
 
 /* FOOTER STYLES */

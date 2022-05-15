@@ -16,7 +16,7 @@
 </head>
 <body>
     <?php include 'header.php' ?>
-    <main></main>
+    <main class="main"></main>
     <?php include 'footer.php' ?>
 </body>
 </html>

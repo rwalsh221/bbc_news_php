@@ -62,21 +62,34 @@
     </div>
     <div class="news-nav-container">
         <nav class="news__nav">
-            <ul>
-                <li><span>home</span></li>
-                <li>war in ukraine</li>
-                <li>coronovirus</li>
-                <li>climate</li>
-                <li>uk</li>
-                <li>world</li>
-                <li>business</li>
-                <li>politics</li>
-                <li>tech</li>
-                <li>science</li>
-                <li>health</li>
-                <li>family & education</li>
-                <li>entertainment & arts</li>
-                <li><span>more&nbsp;</span><ion-icon name="caret-down"></ion-icon></li>
+            <ul class="nav-ul">
+                <li class="nav-li"><span>home</span></li>
+                <li class="nav-li"><span>war in ukraine</span></li>
+                <li class="nav-li"><span>coronovirus</span></li>
+                <li class="nav-li"><span>climate</span></li>
+                <li class="nav-li"><span>uk</span></li>
+                <li class="nav-li"><span>world</span></li>
+                <li class="nav-li"><span>business</span></li>
+                <li class="nav-li"><span>politics</span></li>
+                <li class="nav-li"><span>tech</span></li>
+                <li class="nav-li"><span>science</span></li>
+                <li class="nav-li"><span>health</span></li>
+                <li class="nav-li"><span>family & education</span></li>
+                <li class="nav-li"><span>entertainment & arts</span></li>
+                <li class="nav-li news__nav--more"><span>more&nbsp;<ion-icon name="caret-down"></ion-icon></span></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="location-nav-container">
+        <nav class="location__nav">
+            <ul class="nav-ul">
+                <li class="nav-li"><span>england</span></li>
+                <li class="nav-li"><span>n. ireland</span></li>
+                <li class="nav-li"><span>scotland</span></li>
+                <li class="nav-li"><span>alba</span></li>
+                <li class="nav-li"><span>wales</span></li>
+                <li class="nav-li"><span>cymru</span></li>
+                <li class="nav-li"><span>local news</span></li>
             </ul>
         </nav>
     </div>
