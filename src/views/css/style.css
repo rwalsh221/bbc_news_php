@@ -49,6 +49,10 @@ body {
   width: 13rem;
 }
 
+[data-boldfont] {
+  font-weight: bold;
+}
+
 /* HEADER STYLES ********************************************************************* */
 
 .header {
