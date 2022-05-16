@@ -18,9 +18,14 @@
     <?php include 'header.php' ?>
     <main class="main">
     <?php
-
-$curl = file_get_contents('https://baconipsu.com/api/?type=all-meat');
-var_dump($curl);
+    include '../app/GetMeat.php';
+    $getMeat = new GetMeat();
+    
+    for ($i = 0; $i <5; $i++) {
+        $content = $getMeat->requestMeat();
+        echo '<div>'.$content.'</div>';
+        // var_dump($content[0]);
+    }
  ?>
     </main>
     <?php include 'footer.php' ?>

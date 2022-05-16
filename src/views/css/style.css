@@ -260,6 +260,9 @@ a:hover {
 .main {
   background-color: saddlebrown;
   min-height: 85vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
 }
 
 /* FOOTER STYLES ************************************************************************************************************************************* */
