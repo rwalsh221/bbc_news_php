@@ -16,7 +16,13 @@
 </head>
 <body>
     <?php include 'header.php' ?>
-    <main class="main"></main>
+    <main class="main">
+    <?php
+
+$curl = file_get_contents('https://baconipsu.com/api/?type=all-meat');
+var_dump($curl);
+ ?>
+    </main>
     <?php include 'footer.php' ?>
 </body>
 </html>

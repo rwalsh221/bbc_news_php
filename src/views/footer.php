@@ -46,19 +46,21 @@
             </nav>
         </div>
         <div class="legal-nav-container">
-            <ul>
-                <li><a href="">terms of use</a></li>
-                <li><a href="">about the bbc</a></li>
-                <li><a href="">privacy policy</a></li>
-                <li><a href="">cookies</a></li>
-                <li><a href="">accessibility help</a></li>
-                <li><a href="">parental guidance</a></li>
-                <li><a href="">contact the BBC</a></li>
-                <li><a href="">get personalised newsletters</a></li>
-            </ul>
+            <nav class="footer__legal-nav">
+                <ul>
+                    <li><a href="">terms of use</a></li>
+                    <li><a href="">about the bbc</a></li>
+                    <li><a href="">privacy policy</a></li>
+                    <li><a href="">cookies</a></li>
+                    <li><a href="">accessibility help</a></li>
+                    <li><a href="">parental guidance</a></li>
+                    <li><a href="">contact the BBC</a></li>
+                    <li><a href="">get personalised newsletters</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="copyright-container">
-            <p><span data-boldfont>Copyright © 2022 BBC.</span>&nbsp;The BBC is not responsible for the content of external sites.&nbsp;<a>Read about our approach to external linking.</a> </p>
+            <p><span data-boldfont>Copyright © 2022 BBC.</span>&nbsp;The BBC is not responsible for the content of external sites.&nbsp;<a data-boldfont>Read about our approach to external linking.</a> </p>
         </div>
     </div>
 </footer>
