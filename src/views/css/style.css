@@ -258,11 +258,13 @@ a:hover {
 /* HOME STYLES ************************************************************************************************************************************** */
 
 .main {
-  background-color: saddlebrown;
+  /* background-color: saddlebrown; */
   min-height: 85vh;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 /* FOOTER STYLES ************************************************************************************************************************************* */

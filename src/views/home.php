@@ -18,13 +18,14 @@
     <?php include 'header.php' ?>
     <main class="main">
     <?php
-    include '../app/GetMeat.php';
-    $getMeat = new GetMeat();
     
     for ($i = 0; $i <5; $i++) {
-        $content = $getMeat->requestMeat();
-        echo '<div>'.$content.'</div>';
-        // var_dump($content[0]);
+        $content = $getLorem->getLorem();
+        echo 
+        '<div>
+        <img src="https://picsum.photos/200">'
+        .$content.
+        '</div>';
     }
  ?>
     </main>
