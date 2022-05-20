@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace App;
+
 class GetLorem {
 
     private const LOREM_URL = 'https://baconipsum.com/api/?type=meat-and-filler';

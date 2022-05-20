@@ -18,9 +18,9 @@
     <?php include 'header.php' ?>
     <main class="main">
     <?php
-    
     for ($i = 0; $i <5; $i++) {
-        $content = $getLorem->getLorem();
+        // echo $getLorem->formatHeading();
+        $content = $getLorem->formatHeading();
         echo 
         '<div>
         <img src="https://picsum.photos/200">'
