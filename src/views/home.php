@@ -18,16 +18,9 @@
     <?php include 'header.php' ?>
     <main class="main">
     <?php
-    for ($i = 0; $i <5; $i++) {
-        // echo $getLorem->formatHeading();
-        $content = $getLorem->formatHeading();
-        echo 
-        '<div>
-        <img src="https://picsum.photos/200">'
-        .$content.
-        '</div>';
-    }
- ?>
+        $content = $primaryArticle->getPrimaryArticleHTML();
+        echo $content;
+    ?>
     </main>
     <?php include 'footer.php' ?>
 </body>

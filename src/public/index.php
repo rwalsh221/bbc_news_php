@@ -13,6 +13,6 @@ define('VIEWS_PATH', $root . 'views' . DIRECTORY_SEPARATOR);
 include '../app/GetLorem.php';
 include '../app/PrimaryArticle.php';
 
-$getLorem = new PrimaryArticle();
+$primaryArticle = new PrimaryArticle();
 
 require VIEWS_PATH . 'home.php';

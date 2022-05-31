@@ -11,7 +11,7 @@ class PrimaryArticle extends GetLorem {
     return $v1 . " " . $v2;
     }
 
-    public function formatHeading() 
+    private function formatHeading() 
     {
 
         
@@ -34,6 +34,14 @@ class PrimaryArticle extends GetLorem {
         }
 
         return array_reduce($testArray2, array($this,'myfunction'));
+    }
+
+    public function getPrimaryArticleHTML()
+    {
+        return '<div class="primary-article">
+                <img src="https://picsum.photos/200">'
+                .$this->formatHeading().
+                '</div>';
     }
 }
 ?>
