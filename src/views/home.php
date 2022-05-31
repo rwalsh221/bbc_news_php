@@ -18,8 +18,9 @@
     <?php include 'header.php' ?>
     <main class="main">
     <?php
-        $content = $primaryArticle->getPrimaryArticleHTML();
-        echo $content;
+        
+        echo $primaryArticleContent;
+        echo $secondaryArticleContent;
     ?>
     </main>
     <?php include 'footer.php' ?>

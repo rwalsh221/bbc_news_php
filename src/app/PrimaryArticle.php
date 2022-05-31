@@ -4,44 +4,21 @@ declare(strict_types=1);
 
 namespace App;
 
-class PrimaryArticle extends GetLorem {
-
-    function myfunction($v1,$v2)
-    {
-    return $v1 . " " . $v2;
-    }
-
-    private function formatHeading() 
-    {
-
-        
-
-        $test = $this->getLorem();
-
-        $randomNumber = rand(6, 10);
-
-        $testArray = str_word_count($test,1);
-
-        $testArray2 = array_slice($testArray, 0, $randomNumber);
-
-        // echo 
-        // var_dump(array_reduce($testArray2, array($this,'myfunction')));
-        // var_dump($testArray2);
-
-        if (substr($test, $randomNumber, 1) === ' ') {
-            // echo $randomNumber;
-            $randomNumber +=1;
-        }
-
-        return array_reduce($testArray2, array($this,'myfunction'));
-    }
-
+class PrimaryArticle extends GetLorem 
+{
     public function getPrimaryArticleHTML()
     {
         return '<div class="primary-article">
-                <img src="https://picsum.photos/200">'
-                .$this->formatHeading().
-                '</div>';
+                    <div class="primary-article__content">
+                        <h3>'
+                            .$this->formatHtml(6, 10).
+                        '</h3>
+                        <p>'
+                            .$this->formatHtml(13, 19).
+                        '</p>
+                    </div>
+                    <div class="primary-article__img"><img src="https://picsum.photos/200"></div>
+                </div>';
     }
 }
 ?>
